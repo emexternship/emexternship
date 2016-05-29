@@ -5,8 +5,10 @@ body {
 }
 
 .paragraph { 
+  font-size: 60px;
 }
 
+/*Online Games for Kids Header*/
 #header { 
   font-size: 45px;
 }
