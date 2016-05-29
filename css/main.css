@@ -1,14 +1,14 @@
 /*Background color*/
 body { 
   background-color: purple;
-  font-family: Verdana, Tahoma, Times New Roman;
+  font-family: Verdana, Tahoma, Times;
 }
 
 @font-face {
-  font-family: orangejuice;
+  font-family: Orangejuice;
   src: url(orange_juice_2.0.ttf);
   font-weight: normal;
 }
 h1 {
-  font-family: orangejuice;
+  font-family: Orangejuice;
 }
