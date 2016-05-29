@@ -4,8 +4,10 @@ body {
   font-family: Tahoma, Verdana, Times;
 }
 
-.paragraph { 
-  background-image: url("http://orig10.deviantart.net/fe11/f/2015/043/7/d/hard_candy_gradient_purple_grapefruit_by_charlie_henson-d8hs08x.png");
+#paragraph { 
+  width: 45%;
+	float: left;
+	background-image: url("http://orig10.deviantart.net/fe11/f/2015/043/7/d/hard_candy_gradient_purple_grapefruit_by_charlie_henson-d8hs08x.png");
   border-width: 10px 10px 10px 10px;
   border-style: dotted;
   font-size: 30px;
@@ -13,8 +15,10 @@ body {
   left: 30px;
 }
 
-.paragraph2 { 
-  background-image: url("https://raypeden7.files.wordpress.com/2011/03/gradient.jpg");
+#paragraph2 { 
+  width: 45%;
+	float: right;
+	background-image: url("https://raypeden7.files.wordpress.com/2011/03/gradient.jpg");
   border-width: 20px 20px 20px 20px;
   border-style: dotted;
   font-size: 30px;
