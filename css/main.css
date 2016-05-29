@@ -6,8 +6,14 @@ body {
 
 .paragraph { 
   background-image: url("http://orig10.deviantart.net/fe11/f/2015/043/7/d/hard_candy_gradient_purple_grapefruit_by_charlie_henson-d8hs08x.png");
-  width: 10px;
-  height: 10px;
+  border-width: 10px 10px 10px 10px;
+  border-style: dotted;
+  font-size: 30px;
+}
+
+.paragraph2 { 
+  background-image: url("https://raypeden7.files.wordpress.com/2011/03/gradient.jpg");
+  border-width: 20px 20px 20px 20px;
   border-style: dotted;
   font-size: 30px;
 }
