@@ -6,9 +6,9 @@ body {
 
 @font-face {
   font-family: orangejuice;
-  src: url(orange_juice.woff);
+  src: url(orange_juice_2.0.ttf);
   font-weight: normal;
-  
+}
 h1 {
   font_family: orangejuice;
 }
