@@ -2,12 +2,3 @@
 body { 
   background-color: purple;
 }
-
-@font-face {
-  font-family: Orangejuice;
-  src: url(orange_juice_2.0.ttf);
-  font-weight: normal;
-}
-h1 {
-  font-family: Orangejuice;
-}
