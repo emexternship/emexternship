@@ -5,6 +5,7 @@ body {
 }
 
 .paragraph { 
+  background-image: url("http://science-all.com/images/wallpapers/sky/sky-23.jpg");
   border-style: dotted;
   font-size: 60px;
 }
