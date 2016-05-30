@@ -72,6 +72,7 @@ body {
 /*Online Games for Kids Header*/
 #header { 
   font-size: 45px;
+  line-height: -90px;
 }
 /*Description*/
 #description { 
