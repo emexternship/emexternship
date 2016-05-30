@@ -16,6 +16,10 @@ body {
     font-family: Znikomit;
     src: url(znikomit.otf); 
   }
+ @font-face { 
+    font-family: Notera; 
+    src: url(Notera.ttf);
+  }
 /*Game options*/
 #mg { 
     height: 130px;
