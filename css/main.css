@@ -51,6 +51,7 @@ body {
 #description { 
   font-size: 25px;
   color: white; 
+  font-weight: normal;
   margin-top: -25px;
   text-align: center;
 }
