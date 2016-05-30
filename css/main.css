@@ -93,6 +93,7 @@ body {
   outline-style:;
   outline-color:;
   height: 20px;
-  width: 1300px;
+  width: 1285px;
   box-shadow: 10px 10px 9px -2px rgba(247,210,247,1);
+  margin-left: -10px;
 }
