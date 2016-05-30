@@ -1,8 +1,9 @@
-/*Background color*/
+/*Body*/
 body { 
   background-color: #CC99CC;
   font-family: Tahoma, Verdana, Times;
 }
+/*Fonts used*/
 @font-face { 
     font-family: Magic Marbles;
     src: url(Magic_Marbles.otf);
@@ -15,6 +16,7 @@ body {
     font-family: Znikomit;
     src: url(znikomit.otf); 
   }
+/*Game options*/
 #mg { 
     height: 130px;
     width: 500px;
@@ -31,7 +33,6 @@ body {
     position: relative;
     margin-left: 100px;
 }
-
 #tg { 
     height: 130px;
     width: 500px;
@@ -68,7 +69,6 @@ body {
     margin-left: 280px;
     margin-top: 15px;
 }
-
 /*Online Games for Kids Header*/
 #header { 
   font-size: 45px;
@@ -86,7 +86,7 @@ body {
 }
 /*Status Bar*/
 #bar { 
-  margin-top: 100px;
+  margin-top: -20px;
   position: relative;
   word-spacing: 520px;
   background-color: #F0F0F0;
