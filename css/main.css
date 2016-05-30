@@ -11,6 +11,10 @@ body {
     font-family: Happy Camper;
     src: url(happy_camper.ttf);
   }
+@font-face { 
+    font-family: Znikomit;
+    src: url(znikomit.otf); 
+  }
 #mg { 
     height: 130px;
     width: 500px;
@@ -73,7 +77,7 @@ body {
 #description { 
   font-size: 35px;
   line-height: -3.8;
-  font-family: Happy Camper;
+  font-family: "Happy Camper";
   color: white; 
   font-weight: normal;
   margin-top: -25px;
@@ -85,7 +89,9 @@ body {
   word-spacing: 150px;
   background-color: #F0F0F0;
   color: #ffe0fe;
-  font-family: ;
+  font-family: "Znikomit";
+  outline-style:;
+  outline-color:;
   height: 20px;
   width: 1300px;
   box-shadow: 10px 10px 9px -2px rgba(247,210,247,1);
