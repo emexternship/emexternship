@@ -1,6 +1,6 @@
 /*Background color*/
 body { 
-  background-color: #99CCFF;
+  background-color: #6699FF;
   font-family: Tahoma, Verdana, Times;
 }
 
@@ -14,8 +14,8 @@ body {
     border-radius: 5px;
     text-align: center;
     display: inline;
-	  position: relative;
-  	margin-left: 65px;
+    position: relative;
+    margin-left: 65px;
 }
 
 #tg { 
@@ -27,9 +27,9 @@ body {
     border-width: 3px;
     border-radius: 5px;
     text-align: center;
-    display: inline;
-	  position: relative;
-	  margin-left: 25px;
+    display: inline; 
+    position: relative;
+    margin-left: 25px;
 }
 
 /*Online Games for Kids Header*/
