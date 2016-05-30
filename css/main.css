@@ -72,7 +72,7 @@ body {
 /*Online Games for Kids Header*/
 #header { 
   font-size: 45px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 /*Description*/
 #description { 
@@ -86,7 +86,7 @@ body {
 }
 /*Status Bar*/
 #bar { 
-  margin-top: -20px;
+  margin-top: -40px;
   position: relative;
   word-spacing: 520px;
   background-color: #F0F0F0;
