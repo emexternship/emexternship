@@ -79,3 +79,9 @@ body {
   margin-top: -25px;
   text-align: center;
 }
+/*Status Bar*/
+#bar { 
+  line-height: -5;
+  word-spacing: 30px;
+  background-color: #FFFFFF;
+}
