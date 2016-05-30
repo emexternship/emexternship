@@ -68,7 +68,7 @@ body {
     margin-left: 630px;
 }
 #stg {
-   height: 130px;
+    height: 110px;
     width: 700px;
     font-size: 33px;
     font-family: "Dk Hey Comrade";
@@ -79,7 +79,7 @@ body {
     border-radius: 5px;
     text-align: center;
     /*for futher reference: line-height is used to move text up or down in a box*/
-    line-height: 4;
+    line-height: 3;
     display: block; 
     position: relative;
     margin-left: 280px;
