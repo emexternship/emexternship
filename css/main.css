@@ -120,12 +120,15 @@ body {
 /* unvisited link */
 a:link {
     color: #ffe0fe;
+    text-decoration: none;
 }
 /* visited link */
 a:visited {
     color: #ffd1f4;
+    text-decoration: none;
 }
 /* mouse over link */
 a:hover {
     color: #FFFFFF;
+    text-decoration: none;
 }
