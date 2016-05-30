@@ -14,7 +14,7 @@ body {
     border-width: 3px;
     border-radius: 5px;
     text-align: center;
-    display: inline;
+    display: block;
     position: relative;
     margin-left: 80px;
 }
@@ -29,7 +29,7 @@ body {
     border-width: 3px;
     border-radius: 5px;
     text-align: center;
-    display: inline; 
+    display: block; 
     position: relative;
     margin-left: 110px;
 }
