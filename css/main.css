@@ -50,6 +50,7 @@ body {
 /*Description*/
 #description { 
   font-size: 25px;
+  color: white; 
   margin-top: -25px;
   text-align: center;
 }
