@@ -117,3 +117,15 @@ body {
   margin-left: -5px;
   padding: none;
 }
+/* unvisited link */
+a:link {
+    color: #ffe0fe;
+}
+/* visited link */
+a:visited {
+    color: #ffd1f4;
+}
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+}
