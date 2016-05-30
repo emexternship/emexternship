@@ -20,12 +20,16 @@ body {
     font-family: Notera; 
     src: url(Notera_PersonalUseOnly.ttf);
   }
+ @font-face { 
+    font-family: Bringshoot;
+    src: url(Bringshoot.otf);
+  }
 /*Game options*/
 #mg { 
     height: 130px;
     width: 500px;
     font-size: 33px;
-    font-family: "Notera";
+    font-family: "Bringshoot";
     background-color:#D0D0D0;
     border-color:#CC99CC;
     border-style: solid; 
@@ -41,7 +45,7 @@ body {
     height: 130px;
     width: 500px;
     font-size: 33px;
-    font-family: "Notera";
+    font-family: "Bringshoot";
     background-color:#D0D0D0;
     border-color:#CC99CC;
     border-style: solid; 
@@ -59,7 +63,7 @@ body {
    height: 130px;
     width: 700px;
     font-size: 33px;
-    font-family: "Notera";
+    font-family: "Bringshoot";
     background-color:#D0D0D0;
     border-color:#CC99CC;
     border-style: solid; 
