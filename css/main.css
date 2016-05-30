@@ -58,11 +58,11 @@ body {
     border-radius: 5px;
     text-align: center;
     /*for futher reference: line-height is used to move text up or down in a box*/
-    line-height: 3;
+    line-height: 4;
     display: block; 
     position: relative;
     margin-left: 280px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 /*Online Games for Kids Header*/
