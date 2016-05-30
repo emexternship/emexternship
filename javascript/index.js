@@ -1,6 +1,4 @@
-document.getElementById("button").onclick = function() {
-    confirm("Great to see you," + " " + prompt("What's Your Name"));
-};
+
 confirm("I am ready to play!")
 var age = prompt("What's your age?"); 
 if (age <= 13) {
