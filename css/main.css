@@ -131,5 +131,5 @@ a:visited {
 a:hover {
     color: #FFFFFF;
     text-decoration: none;
-    text-shadow: 5px 5px white;
+    text-shadow: 2px 2px #CC99CC;
 }
