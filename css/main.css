@@ -58,7 +58,7 @@ body {
     border-radius: 5px;
     text-align: center;
     /*for futher reference: line-height is used to move text up or down in a box*/
-    line-height: 1;
+    line-height: 2.5;
     display: block; 
     position: relative;
     margin-left: 315px;
