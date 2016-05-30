@@ -93,6 +93,7 @@ body {
   text-shadow: 1px 1px black;
   height: 20px;
   width: 1278px;
+  padding-right: 2cm;
   box-shadow: 10px 10px 9px -2px rgba(247,210,247,1);
   margin-left: -5px;
 }
