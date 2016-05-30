@@ -1,2 +1,137 @@
 /*Page after you click the button*/
+/*Body*/
+body { 
+  background-color: #CC99CC;
+  font-family: Tahoma, Verdana, Times;
+}
+/*Fonts used*/
+@font-face { 
+    font-family: Magic Marbles;
+    src: url(Magic_Marbles.otf);
+  }
+@font-face { 
+    font-family: Happy Camper;
+    src: url(happy_camper.ttf);
+  }
+@font-face { 
+    font-family: Znikomit;
+    src: url(znikomit.otf); 
+  }
+ @font-face { 
+    font-family: Notera; 
+    src: url(Notera_PersonalUseOnly.ttf);
+  }
+ @font-face { 
+    font-family: Bringshoot;
+    src: url(Bringshoot.otf);
+  }
+ @font-face { 
+    font-family: Luna; 
+    src: url(Luna.ttf);
+  }
+  @font-face {
+    font-family: Prized Study;
+    src: url(PrizedStudy.ttf)
+  }
+/*Game options*/
+#mg { 
+    height: 130px;
+    width: 500px;
+    font-size: 33px;
+    font-family: "DK Hey Comrade";
+    background-color:#D0D0D0;
+    border-color:#CC99CC;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3.5;
+    display: block;
+    position: relative;
+    margin-left: 100px;
+}
+#tg { 
+    height: 130px;
+    width: 500px;
+    font-size: 33px;
+    font-family: "DK Hey Comrade";
+    background-color:#D0D0D0;
+    border-color:#CC99CC;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius: 5px;
+    text-align: center;
+    /*for futher reference: line-height is used to move text up or down in a box*/
+    line-height: 3.5;
+    display: block; 
+    position: relative;
+    margin-top: -136px;
+    margin-left: 630px;
+}
+#stg {
+    height: 110px;
+    width: 700px;
+    font-size: 33px;
+    font-family: "Dk Hey Comrade";
+    background-color:#D0D0D0;
+    border-color:#CC99CC;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius: 5px;
+    text-align: center;
+    /*for futher reference: line-height is used to move text up or down in a box*/
+    line-height: 3;
+    display: block; 
+    position: relative;
+    margin-left: 280px;
+    margin-top: 15px;
+}
+/*Online Games for Kids Header*/
+#header { 
+  font-size: 45px;
+  margin-top: -40px;
+}
+/*Description*/
+#description { 
+  font-size: 35px;
+  line-height: -3.8;
+  font-family: "Happy Camper";
+  color: white; 
+  font-weight: normal;
+  margin-top: -25px;
+  text-align: center;
+}
+/*Status Bar*/
+#bar { 
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -40px;
+  position: relative;
+  word-spacing: 500px;
+  background-color: #F0F0F0;
+  color: #ffe0fe;
+  font-family: "Znikomit";
+  text-shadow: 1px 1px black;
+  height: 25px;
+  width: 1278px;
+  box-shadow: 10px 10px 9px -2px rgba(247,210,247,1);
+  margin-left: -5px;
+  padding: none;
+}
+/* unvisited link */
+a:link {
+    color: #ffe0fe;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #ffd1f4;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px #CC99CC;
+}
 
