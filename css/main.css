@@ -129,7 +129,7 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
     text-shadow: 2px 2px #CC99CC;
 }
