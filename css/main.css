@@ -86,6 +86,7 @@ body {
 }
 /*Status Bar*/
 #bar { 
+  font-weight: bold;
   margin-top: -40px;
   position: relative;
   word-spacing: 520px;
