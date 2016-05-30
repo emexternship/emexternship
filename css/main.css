@@ -36,3 +36,8 @@ body {
 #header { 
   font-size: 45px;
 }
+/*Description*/
+#description { 
+  font-size: 35px;
+  text-align: center;
+}
