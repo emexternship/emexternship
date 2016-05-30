@@ -7,6 +7,10 @@ body {
     font-family: Magic Marbles;
     src: url(Magic_Marbles.otf);
   }
+@font-face { 
+    font-family: Happy Camper;
+    src: url(happy_camper.ttf);
+  }
 #mg { 
     height: 130px;
     width: 500px;
@@ -50,6 +54,7 @@ body {
 /*Description*/
 #description { 
   font-size: 25px;
+  font-family: Happy Camper;
   color: white; 
   font-weight: normal;
   margin-top: -25px;
