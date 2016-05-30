@@ -5,8 +5,8 @@ body {
 }
 
 #mg { 
-   height: 50px;
-    width: 120px;
+   height: 200px;
+    width: 270px;
     background-color:#99CCFF;
     border-color:#336699;
     border-style: solid; 
@@ -19,8 +19,8 @@ body {
 }
 
 #tg { 
-   height: 50px;
-    width: 120px;
+   height: 200px;
+    width: 270px;
     background-color:#99CCFF;
     border-color:#336699;
     border-style: solid; 
