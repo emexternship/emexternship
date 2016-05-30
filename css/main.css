@@ -86,7 +86,7 @@ body {
 /*Status Bar*/
 #bar { 
   line-height: -45;
-  word-spacing: 150px;
+  word-spacing: 400px;
   background-color: #F0F0F0;
   color: #ffe0fe;
   font-family: "Znikomit";
