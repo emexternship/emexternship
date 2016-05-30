@@ -86,7 +86,8 @@ body {
 }
 /*Status Bar*/
 #bar { 
-  line-height: -1000;
+  line-height: -50;
+  position: relative;
   word-spacing: 520px;
   background-color: #F0F0F0;
   color: #ffe0fe;
