@@ -5,14 +5,14 @@
 </head>
 <body bgcolor="#CC99CC">
     <!--Ask prompt as soon as user clicks on button-->
-  <button onclick="myFunction()"><img src="http://i465.photobucket.com/albums/rr13/emmlakic/FGFK_zpsivtw6jxw.png"/></button>
+  <button onclick="myFunction()">Click here!</button>
   <p id="demo"></p>
   <script>
     function myFunction() {
-    var person = prompt("Please enter your name", "Harry Potter");
+    var person = prompt("Enter your name to get started!", "Emily Lakic");
     if (person != null) {
         document.getElementById("demo").innerHTML =
-        "Hello " + person + "! How are you today?";
+        "Hello " + person + "! Click the FGFK button to begin!";
     }
 }
 </script>
