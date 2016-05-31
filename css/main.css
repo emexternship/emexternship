@@ -1,10 +1,9 @@
 body { 
   background-color: #CC99CC;
   font-family: Tahoma, Verdana, Times;
-  text-align: center;
 }
 @font-face { 
     font-family: Happy Camper;
     src: url(happy_camper.ttf);
-  }
+}
 
