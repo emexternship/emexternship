@@ -12,3 +12,7 @@ body {
   position: absolute;
   margin-right: 230px;
 }
+#hello {
+  text-align: center;
+  color: white;
+}
