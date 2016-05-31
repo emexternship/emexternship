@@ -45,7 +45,7 @@ body {
     border-width: 3px;
     border-radius: 5px;
     text-align: center;
-    line-height: 3.5;
+    line-height: 2;
     display: block;
     position: relative;
     margin-left: 100px;
@@ -62,7 +62,7 @@ body {
     border-radius: 5px;
     text-align: center;
     /*for futher reference: line-height is used to move text up or down in a box*/
-    line-height: 3.5;
+    line-height: 2;
     display: block; 
     position: relative;
     margin-top: -136px;
@@ -80,7 +80,7 @@ body {
     border-radius: 5px;
     text-align: center;
     /*for futher reference: line-height is used to move text up or down in a box*/
-    line-height: 3;
+    line-height: 2;
     display: block; 
     position: relative;
     margin-left: 280px;
