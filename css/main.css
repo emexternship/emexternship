@@ -7,11 +7,7 @@ body {
     font-family: Happy Camper;
     src: url(happy_camper.ttf);
   }
-#image { 
-  margin-top: -700px;
-  position: absolute;
-  margin-right: 230px;
-}
+
 #hello {
   text-align: center;
   color: white;
