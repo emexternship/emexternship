@@ -1,6 +1,7 @@
 body { 
   background-color: #CC99CC;
   font-family: Tahoma, Verdana, Times;
+  text-align: center;
 }
 @font-face { 
     font-family: Happy Camper;
@@ -8,6 +9,6 @@ body {
   }
 #image { 
   margin-top: -700px;
-  position: relative;
+  position: absolute;
   margin-right: 100px;
 }
