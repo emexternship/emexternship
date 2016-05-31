@@ -39,11 +39,16 @@
 </style>
 </head>
 <body>
+<!--Ask prompt as soon as user clicks on button-->
+  <button onclick="myFunction()">Try it</button>
+  <p id="demo"></p>
   <script>
-  document.getElementById(“button”).onclick = function() {alertFunction()};
-
-function alertFunction() {
-    document.getElementById(“button”).innerHTML = window.alert(“Are you ready?!“);
+    function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
 }
 </script>
   <!--Header-->
@@ -70,4 +75,3 @@ function alertFunction() {
   </div>
 </body>
 </html>
-
