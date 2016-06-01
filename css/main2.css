@@ -86,10 +86,11 @@ body {
     margin-left: 280px;
     margin-top: 15px;
 }
-/*Online Games for Kids Header*/
+/*Fun Games for Kids Header*/
 #header { 
   margin-top: 20px;
   text-shadow: 0 0 3px black;
+  font-size: 90px;
 }
 /*Description*/
 #description { 
