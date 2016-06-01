@@ -49,6 +49,7 @@ body {
     display: block;
     position: relative;
     margin-left: 100px;
+    margin-top: -20px;
 }
 #tg { 
     height: 130px;
@@ -65,7 +66,7 @@ body {
     line-height: 2.5;
     display: block; 
     position: relative;
-    margin-top: -136px;
+    margin-top: -156px;
     margin-left: 630px;
 }
 #stg {
