@@ -90,6 +90,7 @@ body {
 #header { 
   margin-top: 20px;
   text-shadow: 0 0 3px black;
+  font-size: 130px;
 }
 /*Description*/
 #description { 
