@@ -6,10 +6,10 @@
 <body bgcolor="#CC99CC">
     <!--Ask prompt as soon as user clicks on button-->
   <button onclick="myFunction()">Click here!</button>
-  <p id="hello" style="font:italic bold 30px Happy Camper";></p>
+  <p id="demo" style="font:italic bold 30px Happy Camper";></p>
   <script>
     function myFunction() {
-    var person = prompt("Enter your name to get started!", "");
+    var person = prompt("Enter your name to get started!", "Emily Lakic");
     if (person != null) {
         document.getElementById("demo").innerHTML =
         "Hello " + person + "! Click the FGFK button to begin!";
