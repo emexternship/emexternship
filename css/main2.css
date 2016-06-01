@@ -89,6 +89,7 @@ body {
 /*Fun Games for Kids Header*/
 #header { 
   margin-top: -90px;
+  margin-bottom: 40px;
   text-shadow: 0 0 3px black;
   font-size: 85px;
 }
