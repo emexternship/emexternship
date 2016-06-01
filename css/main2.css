@@ -70,7 +70,7 @@ body {
 }
 #stg {
     height: 120px;
-    width: 900px;
+    width: 1050px;
     font-size: 50px;
     font-family: "Dk Hey Comrade";
     background-color:#D0D0D0;
@@ -83,7 +83,7 @@ body {
     line-height: 2.5;
     display: block; 
     position: relative;
-    margin-left: 75px;
+    margin-left: 100px;
     margin-top: 15px;
 }
 /*Fun Games for Kids Header*/
