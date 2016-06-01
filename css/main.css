@@ -6,9 +6,3 @@ body {
     font-family: Happy Camper;
     src: url(happy_camper.ttf);
 }
-#image { 
-  display: block;
-  position: relative;
-  margin-top: -70px;
-}
-
