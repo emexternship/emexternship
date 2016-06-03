@@ -6,3 +6,10 @@ body {
     font-family: Happy Camper;
     src: url(happy_camper.ttf);
 }
+
+#demo { 
+  font-family: Happy Camper; 
+  font-style: italic;
+  font-size: 30px;
+  color: white; 
+}
