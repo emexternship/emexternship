@@ -15,5 +15,6 @@ body {
 }
 
 #box { 
-  color: pink;
+  font-size: 45px;
+  font-family: Verdana;
 }
