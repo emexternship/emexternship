@@ -1,5 +1,17 @@
 <!DOCTYPE html> 
-<head><script type="text/javascript" src="games/storytellinggame.js"></script>
+<head>
+  <button onclick="myFunction()">BEGIN HERE</button>
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+    var person = prompt("Enter your name to get started!", "");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! Lets play!";
+    }
+}
+  </script>
+  <script type="text/javascript" src="games/storytellinggame.js"></script>
 <link type="text/css" rel="stylesheet" href="storytellinggame.css">
 <title>Storytelling Game</title>
 </head>
