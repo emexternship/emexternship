@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <head>
   <button onclick="myFunction()">BEGIN HERE</button>
+  <button onclick="nextFunction()">NEXT STEP</button>
   <p id="demo"></p>
   <script>
     function myFunction() {
@@ -10,11 +11,14 @@
         "Hello " + person + "! Lets play! Click the button below.";
     }
 }
-    function myFunction() {
-      var person = prompt("Do you want to race Bieber?", "");
-    if (person = "Yes") { 
-        document.getElementById("demo").innerHTML =
-        "Great " + person + "! Lets race!";
+</script>
+<p id="demoo"></p>
+<script>
+    function nextFunction() {
+      var userAnswer = prompt("Do you want to race Bieber?", "");
+    if (userAnswer = "Yes") { 
+        document.getElementById("demoo").innerHTML =
+        "Great, lets race!";
     }
 }
   </script>
