@@ -7,9 +7,14 @@
     var person = prompt("Enter your name to get started!", "");
     if (person != null) {
         document.getElementById("demo").innerHTML =
-        "Hello " + person + "! Lets play!";
+        "Hello " + person + "! Lets play! Click the button below.";
     }
-    var userAnswer = prompt("Do you want to race Bieber?", "");
+}
+<button onclick="nextFunction()">NEXT STEP!</button>
+<p id="demo2"></p>
+<script>
+    function nextFunction() {
+      var userAnswer = prompt("Do you want to race Bieber?", "");
     if (userAnswer = "Yes") { 
         document.getElementById("demo").innerHTML =
         "Great " + person + "! Lets race!";
