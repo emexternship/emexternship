@@ -1,6 +1,16 @@
 <!DOCTYPE html> 
 <head>
-  <button onclick="myFunction()" id="button">BEGIN HERE</button>
+  <style>
+    .button {
+      background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+  </style>
+  <button onclick="myFunction()" class="button">BEGIN HERE</button>
   <button onclick="nextFunction()">NEXT STEP</button>
   <p id="demo"></p>
   <script>
@@ -8,7 +18,7 @@
     var person = prompt("Enter your name to get started!", "");
     if (person != null) {
         document.getElementById("demo").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!.";
+        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
     }
 }
 </script>
@@ -20,6 +30,9 @@
         document.getElementById("demoo").innerHTML =
         "Great, lets race!";
     }
+    else (userAnswer ! = null) { 
+      document.getElementById("demoo").innerHTML = 
+        "Ok. Maybe next time!"
 }
   </script>
   <script type="text/javascript" src="games/storytellinggame.js"></script>
