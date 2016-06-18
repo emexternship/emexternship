@@ -6,39 +6,3 @@
   font-family: Tahoma;
   background-color: #f7c75e;
 }
-  #header { 
-    font-family: "Akbar";
-    font-size: 75px;
-    color: black; 
-    text-align: center;
-    }
- .beginhere {
-    width: 200px; 
-    height: 100px;
-    background-color: #dbffe5;
-    color: black;
-    padding: 16px;
-    position: relative;
-    display: block;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    }
-    .nextstep { 
-    width: 200px;
-    height: 100px; 
-    background-color: #FFFFFF;
-    color: black;
-    padding: 16px;
-    position: relative;
-    display: block;
-    margin-right: 450px;
-    margin-top: -500px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    }
-    #demo {
-    font-family: Times;
-    font-size: 12px;
-    }
