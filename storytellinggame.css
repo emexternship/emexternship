@@ -1,4 +1,9 @@
-body { 
+@font-face { 
+  font-family: Akbar; 
+  src: url(akbar.ttf);
+}
+
+  body { 
   font-family: Tahoma;
   background-color: #f7c75e;
 }
