@@ -7,3 +7,9 @@
   font-family: Tahoma;
   background-color: #f7c75e;
 }
+  #header { 
+    font-family: "Akbar";
+    font-size: 25px;
+    color: black; 
+    text-align: center;
+    }
