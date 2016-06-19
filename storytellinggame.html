@@ -66,15 +66,15 @@
   <button onclick="myFunction()" class="beginhere">BEGIN HERE</button>
   <button onclick="nextFunction()" class="nextstep">NEXT STEP</button>
   <button onclick="firstImg()" class="first">First Image</button>
-  <p id="first"></p>
+  <p id="first7"></p>
   <script> 
   function firstImg() { 
-    var person = prompt("Hi!");
-    if (person ! = null) { 
-      document.getElementbyId("first").innerHTML = 
-      "Hello";
+    var person = prompt("Enter your name to get started!", "");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
     }
-  }
+}
   </script>
   <p id="demo"></p>
   <script>
