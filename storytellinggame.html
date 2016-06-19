@@ -47,6 +47,7 @@
     color: black; 
     text-align: center;
     }
+    #theImage { visibility: hidden; }
   </style>
   <button onclick="myFunction()" class="beginhere">BEGIN HERE</button>
   <button onclick="nextFunction()" class="nextstep">NEXT STEP</button>
@@ -75,9 +76,8 @@
 }
   </script>
   <script>
-    function setImageVisible(id, visible) {
-    var img = document.getElementById(id);
-    img.style.visibility = (visible ? 'visible' : 'hidden');
+    document.getElementById("showImage").onclick = function() {
+    document.getElementById("theImage").style.visibility = "visible";
 }
   </script>
   <script type="text/javascript" src="games/storytellinggame.js"></script>
@@ -85,8 +85,7 @@
 <title>Storytelling Game</title>
 </head>
 <body>
-  <a href="javascript:showImage(http://www.visitbinghamton.org/wp-content/uploads/att2.jpg)">show image</a>
-<a href="javascript:setImageVisible('myImageId', true)">show image</a>
-<a href="javascript:setImageVisible('myImageId', false)">hide image</a>
+<img id="theImage" src="http://www.visitbinghamton.org/wp-content/uploads/att2.jpg">
+<a id="showImage">Show image</a>
 </body>
 </html>
