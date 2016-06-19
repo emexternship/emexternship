@@ -74,10 +74,19 @@
     }
 }
   </script>
+  <script>
+    function setImageVisible(id, visible) {
+    var img = document.getElementById(id);
+    img.style.visibility = (visible ? 'visible' : 'hidden');
+}
+  </script>
   <script type="text/javascript" src="games/storytellinggame.js"></script>
 <link type="text/css" rel="stylesheet" href="storytellinggame.css">
 <title>Storytelling Game</title>
 </head>
 <body>
+  <a href="javascript:showImage()">show image</a>
+<a href="javascript:setImageVisible('myImageId', true)">show image</a>
+<a href="javascript:setImageVisible('myImageId', false)">hide image</a>
 </body>
 </html>
