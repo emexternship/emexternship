@@ -43,7 +43,7 @@
     border: none;
     cursor: pointer;
     }
-     .dlisa {
+    .dlisa {
     width: 0px; 
     height: 0px;
     background-color: #f7c75e;
@@ -57,7 +57,35 @@
     border: none;
     cursor: pointer;
     }
-     .dmaggie {
+    .dmaggie {
+    width: 0px; 
+    height: 0px;
+    background-color: #f7c75e;
+    color: black;
+    padding: 16px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 525px;
+    display: block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    .dhomer {
+    width: 0px; 
+    height: 0px;
+    background-color: #f7c75e;
+    color: black;
+    padding: 16px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 525px;
+    display: block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    .dmarge {
     width: 0px; 
     height: 0px;
     background-color: #f7c75e;
@@ -137,6 +165,30 @@
     var person = prompt("Enter your name to get started!", "");
     if (person != null) {
         document.getElementById("Maggie").innerHTML =
+        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+    }
+}
+</script>
+  <!--Homer-->
+  <button onclick="fourthImg()" class="dhomer"><img src="http://i465.photobucket.com/albums/rr13/emmlakic/swsb_character_fact_homer_288x763_zpsp1sub4jy.png"/></button>
+  <p id="Homer"></p>
+  <script> 
+  function thirdImg() { 
+    var person = prompt("Enter your name to get started!", "");
+    if (person != null) {
+        document.getElementById("Homer").innerHTML =
+        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+    }
+}
+</script>
+<!--Marge-->
+  <button onclick="fourthImg()" class="dmarge"><img src="http://i465.photobucket.com/albums/rr13/emmlakic/swsb_character_fact_marge_288x763_zpsy4jmhmdh.png"/></button>
+  <p id="Marge"></p>
+  <script> 
+  function fourthImg() { 
+    var person = prompt("Enter your name to get started!", "");
+    if (person != null) {
+        document.getElementById("Marge").innerHTML =
         "Hello " + person + "! Lets play! Click the 'Next Step' button!";
     }
 }
