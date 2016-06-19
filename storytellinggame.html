@@ -51,7 +51,17 @@
   </style>
   <button onclick="myFunction()" class="beginhere">BEGIN HERE</button>
   <button onclick="nextFunction()" class="nextstep">NEXT STEP</button>
-  <button onclick="firstimg()" class="first"><img src="swsb_character_fact_bart_288x763.png"/></button>
+  <button onclick="firstImg()" class="first"><img src="swsb_character_fact_bart_288x763.png"/></button>
+  <p id="first"></p>
+  <script> 
+  function firstImg() { 
+    var person = prompt("Hi!");
+    if (person ! = null) { 
+      document.getElementbyId("first").innerHTML = 
+      "Hello";
+    }
+  }
+  </script>
   <p id="demo"></p>
   <script>
     function myFunction() {
