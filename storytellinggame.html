@@ -57,6 +57,20 @@
     border: none;
     cursor: pointer;
     }
+     .dmaggie {
+    width: 0px; 
+    height: 0px;
+    background-color: #f7c75e;
+    color: black;
+    padding: 16px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 325px;
+    display: block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
     #demo {
     font-family: "Akbar";
     font-size: 25px;
@@ -111,6 +125,18 @@
     var person = prompt("Enter your name to get started!", "");
     if (person != null) {
         document.getElementById("Lisa").innerHTML =
+        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+    }
+}
+  </script>
+  <!--Maggie-->
+  <button onclick="thirdImg()" class="dmaggie"><img src="http://i465.photobucket.com/albums/rr13/emmlakic/swsb_character_fact_maggie_288x763_zps0obi9qwo.png"/></button>
+  <p id="Maggie"></p>
+  <script> 
+  function thirdImg() { 
+    var person = prompt("Enter your name to get started!", "");
+    if (person != null) {
+        document.getElementById("Maggie").innerHTML =
         "Hello " + person + "! Lets play! Click the 'Next Step' button!";
     }
 }
