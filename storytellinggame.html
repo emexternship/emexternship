@@ -196,11 +196,13 @@
   <p id="Marge"></p>
   <script> 
   function fifthImg() { 
-    var person = prompt("Enter your name to get started!", "");
-    if (person != null) {
-        document.getElementById("Marge").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+  var x;
+    if (confirm("Nice choice!") == true) {
+        x = "Click 'Next Step' to continue!";
+    } else {
+        x = "Choose another character!";
     }
+    document.getElementById("demo").innerHTML = x;
 }
   </script>
   <p id="demo"></p>
