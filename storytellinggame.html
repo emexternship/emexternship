@@ -140,11 +140,13 @@
   <p id="Bart"></p>
   <script> 
   function firstImg() { 
-    var person = prompt("Enter your name to get started!", "");
-    if (person != null) {
-        document.getElementById("Bart").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+    var x;
+    if (confirm("Press a button!") == true) {
+        x = "You pressed OK!";
+    } else {
+        x = "You pressed Cancel!";
     }
+    document.getElementById("demo").innerHTML = x;
 }
   </script>
   <!--Lisa-->
