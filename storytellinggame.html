@@ -154,11 +154,13 @@
   <p id="Lisa"></p>
   <script> 
   function secondImg() { 
-    var person = prompt("Enter your name to get started!", "");
-    if (person != null) {
-        document.getElementById("Lisa").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+  var x;
+    if (confirm("Nice choice!") == true) {
+        x = "Click 'Next Step' to continue!";
+    } else {
+        x = "Choose another character!";
     }
+    document.getElementById("demo").innerHTML = x;
 }
   </script>
   <!--Maggie-->
@@ -166,11 +168,13 @@
   <p id="Maggie"></p>
   <script> 
   function thirdImg() { 
-    var person = prompt("Enter your name to get started!", "");
-    if (person != null) {
-        document.getElementById("Maggie").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+  var x;
+    if (confirm("Nice choice!") == true) {
+        x = "Click 'Next Step' to continue!";
+    } else {
+        x = "Choose another character!";
     }
+    document.getElementById("demo").innerHTML = x;
 }
 </script>
   <!--Homer-->
@@ -178,11 +182,13 @@
   <p id="Homer"></p>
   <script> 
   function fourthImg() { 
-    var person = prompt("Enter your name to get started!", "");
-    if (person != null) {
-        document.getElementById("Homer").innerHTML =
-        "Hello " + person + "! Lets play! Click the 'Next Step' button!";
+  var x;
+    if (confirm("Nice choice!") == true) {
+        x = "Click 'Next Step' to continue!";
+    } else {
+        x = "Choose another character!";
     }
+    document.getElementById("demo").innerHTML = x;
 }
 </script>
 <!--Marge-->
